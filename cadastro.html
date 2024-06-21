@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <div class="fundo">
+        <h3>Cadastro</h3>
+        <div class="detalhes">
+            <div class="cad">
+                <input type="text" placeholder="Nome" id="Cadnome">
+                <input type="email" placeholder="Email" id="Cademail">
+                <input type="password" placeholder="Senha" id="Cadsenha">
+                <input type="date" placeholder="Data de nacimento" id="Caddate">
+                <input type="text" placeholder="Id da turma" id="CadIdturma">
+
+                <button onclick="cadastro()" class="btn">Enviar</button>
+                <p id="resposta"></p>
+                <a href="index.html">Voltar</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
